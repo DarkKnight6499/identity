@@ -1,4 +1,4 @@
-OPTIONS="Ga9 Yaz AK Kish Dark"
+OPTIONS="Ga9 Yaz AK Kish Dark RK"
     select opt in $OPTIONS; do
            if [ "$opt" = "Ga9" ]; then
            source identity/GreenArrow9.sh
@@ -15,8 +15,11 @@ OPTIONS="Ga9 Yaz AK Kish Dark"
            elif [ "$opt" = "Dark" ]; then
            source identity/TheDarkStrix.sh
            break;
+           elif [ "$opt" = "RK" ]; then
+           source identity/fsociety.sh
+           break;
            else
            clear
-           echo hutiya kya?
+           echo kya kar rha hai chutiye ? Dhyaan kidhar hai ?
            fi
 done
