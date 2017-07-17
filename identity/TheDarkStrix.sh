@@ -1,4 +1,4 @@
 git config --global user.name "TheDarkStrix"
-git config --global user.email "iammanojrocker@gmail.com"
+git config --global user.email "thedarkstrix@gmail.com"
 echo Welcome Manoj
-echo Tujhse na hapayega....
+echo Spread thugness....
