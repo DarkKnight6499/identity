@@ -21,6 +21,9 @@ OPTIONS="Ga9 Yaz AK Kish Dark RK Subham"
 	   elif [ "$opt" = "Subham" ]; then
            source identity/Subham.sh
            break;
+	   elif [ "$opt" = "Pritansh" ]; then
+           source identity/Pritansh.sh
+           break;
            else
            clear
            echo kya kar rha hai chutiye ? Dhyaan kidhar hai ?
