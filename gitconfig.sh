@@ -1,4 +1,4 @@
-OPTIONS="Ga9 Yaz AK Kish Dark RK Subham"
+OPTIONS="Ga9 Yaz AK Kish Dark RK Subham Pritansh"
     select opt in $OPTIONS; do
            if [ "$opt" = "Ga9" ]; then
            source identity/GreenArrow9.sh
